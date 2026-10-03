@@ -1,0 +1,33 @@
+{
+  "recorded_trials": 60,
+  "paired_results": [
+    {
+      "M": 1000,
+      "n_pairs": 10,
+      "gain_percentage_points": 3.594000000000001,
+      "paired_t95_interval_percentage_points": [
+        3.31771892532423,
+        3.870281074675773
+      ]
+    },
+    {
+      "M": 5000,
+      "n_pairs": 10,
+      "gain_percentage_points": 1.1069999999999969,
+      "paired_t95_interval_percentage_points": [
+        0.9529162673219478,
+        1.261083732678046
+      ]
+    },
+    {
+      "M": 10000,
+      "n_pairs": 10,
+      "gain_percentage_points": 0.383,
+      "paired_t95_interval_percentage_points": [
+        0.16690170580034736,
+        0.5990982941996527
+      ]
+    }
+  ],
+  "interpretation": "Intervals describe prototype-selection seed variation on a fixed test set, not population uncertainty."
+}

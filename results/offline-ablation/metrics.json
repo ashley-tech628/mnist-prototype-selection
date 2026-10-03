@@ -1,0 +1,60 @@
+{
+  "kind": "new subset class-balance ablation; not historical PCA/kmeans reproduction",
+  "train_size": 5000,
+  "test_size": 1000,
+  "budget": 300,
+  "seed": 42,
+  "features": "784 normalized raw pixels; no PCA",
+  "train_indices_sha256": "9c13767d699e2dd6b60fe69d7a3a0c74c84dc6fc6f6666a908c7c6f7727e6456",
+  "test_indices_sha256": "ba99b4541e32f25c081a4318c561ceb87f1b87262d92c3081542555261781147",
+  "dataset_sha256": {
+    "train-images-idx3-ubyte": "ba891046e6505d7aadcbbe25680a0738ad16aec93bde7f9b65e87a2fc25776db",
+    "train-labels-idx1-ubyte": "65a50cbbf4e906d70832878ad85ccda5333a97f0f4c3dd2ef09a8a9eef7101c5",
+    "t10k-images-idx3-ubyte": "0fa7898d509279e482958e8ce81c8e77db3f2f8254e26661ceb7762c4d494ce7",
+    "t10k-labels-idx1-ubyte": "ff7bcfd416de33731a308c3f266cc351222c34898ecbeaf847f06e48f7ec33f2"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "methods": {
+    "uniform_random": {
+      "accuracy": 0.821,
+      "selection_seconds": 0.0001327999634668231,
+      "prediction_seconds": 0.005787199945189059,
+      "feature_bytes": 940800,
+      "distance_matrix_upper_bound_bytes": 153600,
+      "class_counts": {
+        "0": 40,
+        "1": 26,
+        "2": 31,
+        "3": 29,
+        "4": 27,
+        "5": 25,
+        "6": 24,
+        "7": 40,
+        "8": 32,
+        "9": 26
+      }
+    },
+    "class_balanced_random": {
+      "accuracy": 0.814,
+      "selection_seconds": 0.0025523999938741326,
+      "prediction_seconds": 0.004003699985332787,
+      "feature_bytes": 940800,
+      "distance_matrix_upper_bound_bytes": 153600,
+      "class_counts": {
+        "0": 30,
+        "1": 30,
+        "2": 30,
+        "3": 30,
+        "4": 30,
+        "5": 30,
+        "6": 30,
+        "7": 30,
+        "8": 30,
+        "9": 30
+      }
+    }
+  }
+}

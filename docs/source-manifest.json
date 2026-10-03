@@ -1,0 +1,48 @@
+[
+  {
+    "source_alias": "nested-source/data.py",
+    "packaged_path": "data.py",
+    "sha256": "f0a12773a65f13a95d3b7f4af80dbe16487da3c01d81f0967675458b6fd2ff82"
+  },
+  {
+    "source_alias": "nested-source/features.py",
+    "packaged_path": "features.py",
+    "sha256": "a33e3e201c922946681af42057f91b4c1eec24ce7ae4d9699e1901ec872f9459"
+  },
+  {
+    "source_alias": "nested-source/knn_eval.py",
+    "packaged_path": "knn_eval.py",
+    "sha256": "821709be0675817ee462b26662ac1ef8894cf4051d2b1006a55c7c8d05ec1bca"
+  },
+  {
+    "source_alias": "nested-source/select_prototypes.py",
+    "packaged_path": "select_prototypes.py",
+    "sha256": "e1ba866c9cc4727d175223763e084d46fed82295c27d71ebb374cb1b5b8443cc"
+  },
+  {
+    "source_alias": "nested-source/run_experiments.py",
+    "packaged_path": "run_experiments.py",
+    "sha256": "7065f0de9bb5c3d55e1f5bf1971d3f5f0374e7888b1f3a2355dbb27cbbd8af10"
+  },
+  {
+    "source_alias": "outer-output/results.csv",
+    "packaged_path": "results/historical/results.csv",
+    "sha256": "300448f2d101073a8deb06f42c2e4d5544c6815ef34b6da760e9d04fd0a7259e"
+  },
+  {
+    "source_alias": "outer-output/summary.csv",
+    "packaged_path": "results/historical/summary.csv",
+    "sha256": "6aeabf41a4d3b7d4c9dc186d20899cc4cadf3eed51ec968ec0365473d29475a0"
+  },
+  {
+    "source_alias": "outer-output/plot.png",
+    "packaged_path": "results/historical/plot.png",
+    "sha256": "3facd48c8889581eab0918ff6d5d7d5a85b8ec84e094e860314f2bd4d465e078"
+  },
+  {
+    "source_alias": "outer-source/run_experiments.py",
+    "bundled": false,
+    "sha256": "4190abe723e01668ee7372fc66bb8ff59134bfcbd26566a0affd56a2c58a1224",
+    "reason": "Contains args.tri als syntax error; selected syntactically valid nested copy"
+  }
+]
